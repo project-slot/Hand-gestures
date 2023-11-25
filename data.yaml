@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 24
+names: ['Call-Me', 'Fingers-Crossed', 'Fingers-Spread', 'Hand-Raised', 'Heart', 'Italian-Gesture', 'Left-Fist', 'Live-Long-Prosper', 'Love-You', 'Middle', 'Okay', 'Oncoming-Punch', 'Peace', 'Pinched-Fingers', 'Point-Down', 'Point-Left', 'Point-Right', 'Pointing-Up', 'Praying-Hands', 'Raised-Fist', 'Right-Fist', 'Rock', 'Thumbs-Down', 'Thumbs-Up']
+
+roboflow:
+  workspace: eli-juergens-bbemu
+  project: common-hand-gestures-emoji
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/eli-juergens-bbemu/common-hand-gestures-emoji/dataset/6
