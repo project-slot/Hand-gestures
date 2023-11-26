@@ -2,12 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 24
-names: ['Call-Me'0, 'Fingers-Crossed'1, 'Fingers-Spread'2, 'Hand-Raised'3, 'Heart'4, 'Italian-Gesture'5, 'Left-Fist'6, 'Live-Long-Prosper'7, 'Love-You'8, 'Middle'9, 'Okay'10, 'Oncoming-Punch'11, 'Peace'12, 'Pinched-Fingers'13, 'Point-Down'14, 'Point-Left'15, 'Point-Right'16, 'Pointing-Up'17, 'Praying-Hands'18, 'Raised-Fist'19, 'Right-Fist'20, 'Rock'21, 'Thumbs-Down'22, 'Thumbs-Up'23]
+nc: 11
+names: ['0- Gesture 1', '1- Gesture 2', '10- Gesture 11', '2- Gesture 3', '3- Gesture 4', '4- Gesture 5', '5- Gesture 6', '6- Gesture 7', '7- Gesture 8', '8- Gesture 9', '9- Gesture 10']
 
 roboflow:
-  workspace: eli-juergens-bbemu
-  project: common-hand-gestures-emoji
-  version: 6
+  workspace: kfupm-k3d5z
+  project: kfupm1
+  version: 1
   license: CC BY 4.0
-  url: https://universe.roboflow.com/eli-juergens-bbemu/common-hand-gestures-emoji/dataset/6
+  url: https://universe.roboflow.com/kfupm-k3d5z/kfupm1/dataset/1
